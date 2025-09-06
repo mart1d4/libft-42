@@ -1,0 +1,12 @@
+# .clang-format
+BasedOnStyle: LLVM
+IndentWidth: 4
+TabWidth: 4
+UseTab: Never
+BreakBeforeBraces: Allman # This puts opening braces on their own line
+# The following BraceWrapping options are generally not needed with Allman,
+# but can be kept if you have specific exceptions.
+BraceWrapping:
+  AfterControlStatement: false # Keep closing brace of control statements on its own line
+  IndentBraces: false # Don't indent opening/closing braces relative to the block
+  SplitEmptyRecord: false # Don't split empty structs/classes over multiple lines SplitEmptyRecord: false # Don't split empty structs/classes over multiple lines
